@@ -3,4 +3,4 @@ const countrySchema = mongoose.Schema({
   country: { type: String, require: true },
   city: { type: String, require: true },
 });
-module.exports = mongoose.model("country", countrySchema);
+module.exports = mongoose.model("countries", countrySchema);
